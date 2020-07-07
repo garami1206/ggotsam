@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+.mainCon02>h3,.mgnb,.mcopy{display: none;}
+
+@media screen and (max-width:768px){
+    body{min-width: 100%;}
+    .inner{width: auto;}
+    
+    /*모바일에서 안보임처리*/
+    .gnb,.utill,input,.msTxt a,.con01Tit li,.con01Arrow li,.con01Menu .lBtn,.con01Menu .rBtn,.con02tit,.mainCon02 img,.mainCon02,.mainCon03,.mainCon04,.mainCon05,.ftInfo02,.sns,.fbInfo,.fbMenu,.topBtn,.fLogo{display: none;}
+    
+    /*모바일에서 보임처리*/
+    .mainCon02>h3,.mgnb,.mcopy{display: block;}
+    
+    /*헤더*/
+    #header{height: auto; position: relative;}
+    #header h1{position: static; background: none; height: auto; width: auto;display: block; line-height: normal; margin: 0 auto;}
+    #header h1 img{line-height: normal;width: 50px;}
+    #header .inner{height: auto;}
+    
+        .panel{width: 30px; height: 30px; position: absolute; top: 10px; right: 10px;}
+    
+        .surch{margin-top: 0; position: static; text-align:start;}
+        .surchIco{position: absolute; left: 10px; top: 10px;}
+    
+        .mgnb{text-align: center; padding:10px 0;border-top: 1px solid #ccc;}
+        .mgnb li{float: left;font-size: 14px;letter-spacing: -1px; width: 20%; }
+        .mgnb li a{color: #000;}
+    
+    /*메인슬라이더*/
+    .mainSlider{height: auto; position: relative; padding: 20% 0;}
+    
+        .msTxt{padding: 0; font-size: 15px; text-align: center; padding: 10% 0;}
+        .msTxt p{font-weight: 200; font-size: 18px;}
+        .msTxt span{color: #685B39; font-size: 15px; margin: 10px 0;}
+        
+        .mainSlider .lBtn{left: 10px;}
+        .mainSlider .rBtn{right: 10px; background-position: right;}
+        
+        .msMenu{padding: 0; width: 100%;text-align: center; padding-bottom: 10%;}
+        .msMenu a{width: 80px;height: 80px; margin-right: 0;  display: inline-block; margin: 0 2%; background: #000; text-indent: 0px; font-size: 12px; line-height: 80px; color: #fff; font-weight: 200px; font-family: 'NanumSquare'; letter-spacing: 1px;}
+        .msMenu a:last-child{color: #000;}
+    
+        
+    .con01Slide{margin-top: 0px;}
+    .con01Slide02{padding-bottom: 20px;}
+        /*화살표*/
+        .lBtn,.rBtn{width: 15px; height: 30px; background-size: 30px;}
+    
+    /*mainCon01*/
+    .mainCon01{height: 1270px; background:#F5F0E3}
+    .mainCon01 h3{font-size: 20px; margin:0; float: none; text-align: center; padding: 50px 0;}
+    .mainCon01 p{font-weight: 500;}
+    .mainCon01 span{font-size: 13px; font-weight: 700;}
+
+        .con0101{padding: 0; margin: 0}
+
+        .con01Menu{height: auto; padding: 0;}
+        .con01Menu li{width: 50%; margin: 0; margin-bottom: 20px;}
+        .con01Menu li a{height: 100%; width:100%; font-family: 'NanumSquare';}
+        .con01Menu li a p{ font-size: 12px; margin: 20px 0 10px;}
+
+        .con01Img{width: 150px; height: 150px; background-size: 180px; display: inline-block;}
+        .con0101 .con01Img{background-size: 150px;}
+    
+    /*푸터*/
+    #footer{height: 100px;  text-align: center;}
+    
+        .fTop{border-bottom: none; padding: 16px 0}
+            .ftInfo01{margin: 0;}
+            .ftInfo01 p{font-size: 14px; margin: 0; margin-right: 10px;}
+            .ftInfo01 span{font-size: 18px; width: 150px;}
+
+        .fBottom{padding-left: 0}
+          .mcopy{font-size: 12px; }
+}
