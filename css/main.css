@@ -103,7 +103,7 @@
     .con04Img li a{display: block; height: 100%; text-indent: -9999px;}
         .con04imgL{float: left; display: inline-block; width: 350px; margin-right: 5px;}
             .con04imgL li:first-child a{height: 345px; width: 350px;background: url(../images/con04Img01.png) no-repeat; margin-bottom: 5px;}
-            .con04imgL li:last-child a{width: 350px;height: 173px;background: url(../images/con04img02.png) no-repeat;}
+            .con04imgL li:last-child a{width: 350px;height: 173px;background: url(../images/con04Img02.png) no-repeat;}
         .con04imgR{float: left;}
             .con04imgR li{display: block; }
             .con04imgR li a{margin-bottom: 5px;}
